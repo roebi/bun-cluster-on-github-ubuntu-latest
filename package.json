@@ -1,0 +1,9 @@
+{
+  "name": "bun-cluster-on-github-ubuntu-latest",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bun run cluster.ts",
+    "server": "bun run server.ts",
+    "cluster": "bun run cluster.ts"
+  }
+}

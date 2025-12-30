@@ -1,0 +1,4 @@
+!/bin/bash
+
+# Build image with Podman
+podman build -t bun-cluster-on-githu-ubuntu-latest .

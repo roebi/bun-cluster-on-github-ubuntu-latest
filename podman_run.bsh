@@ -1,0 +1,4 @@
+!/bin/bash
+
+# Run container, mapping port 8080
+podman run --rm -p 8080:8080 bun-cluster-on-githu-ubuntu-latest
