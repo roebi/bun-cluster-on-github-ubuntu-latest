@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 # Install dependencies and curl
 RUN apt-get update && \
-    apt-get install -y curl ca-certificates build-essential git && \
+    apt-get install -y curl ca-certificates build-essential git unzip && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Bun
